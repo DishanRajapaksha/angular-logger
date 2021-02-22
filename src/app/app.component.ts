@@ -15,7 +15,6 @@ import { logError, logInfo, logVerbose, logWarning } from './logger.service';
 export class AppComponent implements OnInit{
 
   ngOnInit(): void {
-
     logInfo('Info log');
     logError('Error log');
     logWarning('Warning log');
